@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+ 
+  .wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    padding-top: 40px;
+    
+    margin-top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: white;
+    color: #fff;
+    transition: all 0.3s;
+    max-width: 250px;
+}
+
+
+#comp
+{
+    color:black;
+    
+    text-align:center;
+    cursor: pointer;
+   
+   
+}
+#compn
+{
+    color:black;
+    
+    text-align:center;
+   font-size: 30px; 
+   cursor: pointer;
+   
+
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+#mydt
+{
+    width:1080px;
+    margin-left: 252px;
+    
+}
+.yr
+{
+    height:30px;
+    width: 100px;
+    color:white;
+    background-color: black;
+    padding-left: 15px;
+
+}
+  </style>
+
+    <title>Mypage</title>
+  </head>
+  <body>
+      
+                <div class="wrapper">
+                    <!-- Sidebar -->
+                    <nav id="sidebar">
+                        <div class="sidebar-header">
+                           <a>BRANDO</a>
+                        </div>
+                
+                        <ul class="list-unstyled components">
+                           
+                            
+                            <li class="active">
+                                <a href="#" id="comp">- ABOUT ME</a><hr>
+                            </li>
+                            <li>
+                                <a href="#" id="comp">- SKILLS</a><hr>
+                            </li>
+                            <li>
+                                <a href="#" id="comp">- EDUCATION</a><hr>
+                            </li>
+                            <li>
+                                <a href="#" id="comp">- EMPLOYEMENT</a><hr>
+                            <li>
+                                <a href="#" id="comp">- PORTFOLIO</a><hr>
+                            </li>
+                            <li>
+                                <a href="#" id="comp">- BLOG</a><hr>
+                            </li>
+                            <li>
+                                <a href="#"id="comp">- CONTACT</a><hr>
+                            </li>
+                            <li>
+                                &nbsp; <span> <a id="comp">  <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
+
+                                </a>
+                                <a id="comp">   <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;
+  
+                                </a>
+                                    <a id="comp">    <i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;&nbsp;
+                                           </a>
+                          
+                                        <a id="comp">     <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                           </a>
+                            </li></span>
+                        </ul>
+                    </nav>
+                
+                </div>    
+            
+
+            
+   <div id="mydt">
+    <!-- caurosel -->
+<div id="carouselExampleControls" class="carousel" data-ride="carousel">
+  <ol class="carousel-indicators">
+  
+  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  
+  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  
+  <div class="carousel-inner">
+  
+  <div class="carousel-item active">
+  
+  <img src="images/cofounder.jpg" class="d-block w-100" height="400px" alt="...">
+  
+  <!-- <div class="carousel-caption">
+  <h5 class="display-1 text-warning">KITCHEN</h5>
+  </div> -->
+  </div>
+  <div class="carousel-item">
+  <!-- <div class="carousel-caption">
+  <h5 class="display-1 text-warning">TV CABINET</h5>
+  </div> -->
+  <img src="images/img10.jpg" class="d-block w-100" height="400px" alt="...">
+  </div>
+  <div class="carousel-item" >
+  <!-- <div class="carousel-caption">
+  <h5 class="display-1 text-success">CUBOARD</h5>
+  <p>SLIDING DOORS</p>
+  </div> -->
+  <img src="images/img2.jpg" class="d-block w-100" height="400px" alt="...">
+  </div>
+  <div class="carousel-item" >
+    <!-- <div class="carousel-caption">
+    <h5 class="display-1 text-warning">MODERN KITCHEN</h5>
+    
+    </div> -->
+    <img src="images/img9.jpg" class="d-block w-100" height="400px" alt="...">
+    </div>
+    <div class="carousel-item" >
+      <!-- <div class="carousel-caption">
+      <h5 class="display-1 text-success">CLASSIC KITCHEN</h5>
+      
+      </div> -->
+      <img src="images/img10.jpg" class="d-block w-100" height="400px" alt="...">
+      </div>
+ 
+  
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+  </a>
+  
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+  
+  <span class="carousel-control-next-icon" aria-hidden="true" class="float-
+  left"></span>
+  
+  <span class="sr-only">Next</span>
+  </a>
+  </div>
+  </div>
+  </div>
+
+<!-- corousel ends   -->
+
+<div class="jumbotron bg-light" id="mydt"> <h1>About Me</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+Hi,I am UI/UX designer.I hold masters degree in Computer Application from Osmania University,Hyderabad.<br> <hr>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+
+        Name:
+        </div>
+        <div class="col-6">
+
+            MD SOHAIL
+            </div>
+    </div>
+    <hr>
+<div class="row">
+    <div class="col-6">
+   Email:
+    </div>
+    <div class="col-6">
+        itsohail97@gmail.com
+         </div>
+
+</div>
+<hr>
+<div class="row">
+    <div class="col-6">
+   Phone:
+    </div>
+    <div class="col-6">
+        +91 8897571641
+         </div>
+
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-6">
+   Date of Birth:
+    </div>
+    <div class="col-6">
+        14 September 1997
+         </div>
+
+</div>
+
+<hr>
+<div class="row">
+    <div class="col-6">
+   Nationality:
+    </div>
+    <div class="col-6">
+        Indian
+         </div>
+
+</div><BR>
+<div class="row">
+    <div class="col">
+     <center>  <button STYLE="background-color: black;height:50PX;border-radius: initial;width:200PX; color: cornsilk;outline-color: black">DOWNLOAD RESUME</button></center>
+</div>
+</div>
+</div>           
+
+
+</div>
+        <div class="col">
+          <img src="images/cofounder.jpg" alt=""  height="400px" width="600px"></div> 
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="jumbotron bg-light"  >
+  <div class="container">
+      <div class="row">
+          <div class="col">
+              <H1>SKILLS</H1><BR>
+          </div>
+      </div>
+  </div>
+
+
+<div class="container">
+  <div class="row">
+      <div class="col-3">
+
+
+   
+       <h3>
+           HTML5
+       </h3><br>
+       
+       
+           
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero optio tempora impedit sed vel nulla expedita mollitia quis tempore earum.   </div>  
+                   <div class="col-3">
+                       
+                                   <h1>css</h1><br>
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, enim.   </div> 
+                  
+                                  <div class="col-3">
+                                  
+                                        <h3>ANGULAR</h3>  <br>
+                                       
+                                          
+                                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, enim.   </div>  
+              
+                                              <div class="col-3">
+                                              
+                                                    <h3>BOOTSTRAP</h3>  <br>
+                                                   
+                                                       
+                                                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, enim.   </div>  
+              
+                                                       </div>
+ 
+   </div>
+
+  </div>
+ 
+
+  
+    <div class="container">
+      <div class="row">
+          <div class="col-3">
+    
+    
+       
+           <h3>
+              JQUERY
+           </h3><br>
+           
+           
+               
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero optio tempora impedit sed vel nulla expedita mollitia quis tempore earum.   </div>  
+                       <div class="col-3">
+                           
+                                       <h1>JAVA</h1><br>
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, enim.   </div> 
+                      
+                                      <div class="col-3">
+                                      
+                                            <h3>ORACLE DATABASE</h3>  <br>
+                                           
+                                              
+                                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, enim.   </div>  
+                  
+                                                  <div class="col-3">
+                                                  
+                                                        <h3>C++</h3>  <br>
+                                                       
+                                                           
+                                                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, enim.   </div>  
+                  
+                                                           </div>
+     
+       </div>
+    
+      </div>
+      </div>
+      <div class="jumbotron bg-warning" id="mydt">
+          <div class="container">
+              <div class="row">
+                  <div class="col-3">
+                      <h1><B>-2530</B></h1><br>
+                      <h6>
+                          GRAPHIC DESIGN
+                      </h6>
+                  </div>
+                  <div class="col-3">
+                    <h1><B>-3200</B></h1><br>
+                    <h6>
+                        LOGO DEGIGN
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <h1><B>-2830</B></H1><br>
+                    <h6>
+                        WEB DEVOLEPMENT
+                    </h6>
+                </div>
+                <div class="col-3">
+                    <h1><B>-1035</B></h1><br>
+                    <h6>
+                        APPLICATION
+                    </h6>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="jumbotron bg-light" id="mydt"> <h1>EDUCATION</h1>
+        <div class="container">
+           
+            <div class="row">
+                <div class="col">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ratione non repellat, debitis temporibus quidem ut hic quaerat! Nesciunt tenetur expedita similique animi iste facilis corporis cumque modi velit perferendis. <hr>
+
+                <div class="container">
+                    <div class="row">
+
+                    
+<div class="col-6">
+<h6 style="text-align: center"><b>01. AVANTHI</b></h6><BR>
+    <h6 style="text-align: center">MASTER OF COMPUTER APPLICATIONS<BR>
+       2017-2020</h6>
+</div>
+<div class="col-6">
+    <h6 style="text-align: center"><b>02. SREENIDHI COLLEGE</b></h6><BR>
+        <h6 style="text-align: center">BACHALOR OF SCIENCE<BR>
+        2014-2017</h6>
+    </div>
+ </div>
+ <div class="row">
+    <div class="col-6">
+        <h6 style="text-align: center"><b>03. NRI COLLEGE</b></h6><BR>
+            <h6 style="text-align: center">MPC<BR>
+               2012-2014</h6>
+               
+        </div>
+        <div class="col-6">
+            <h6 style="text-align: center"><b>04. ST THOMAS</b></h6><BR>
+                <h6 style="text-align: center">SSC<BR>
+                2012</h6>
+
+     </div>
+ 
+                </div>
+                <hr>
+    
+     <div class="container">
+     <div class="row">
+         <div class="col">
+            EDUCATION IS NOT PREPARATION FOR LIFE,EDUCATION IS LIFE ITSELF
+ 
+
+         </div>
+     </div>
+     
+ 
+ 
+ 
+
+    </div>
+</div>                
+            
+            
+            
+            
+            
+            </div>
+                
+                <div class="col">
+                    <img src="images/cofounder.jpg" alt="" height="600px"  width="500px" style="float: right">
+                </div>
+      
+            </div>
+        </div>
+      </div>
+      
+
+
+      <div class="jumbotron bg-light" id="mydt"> <h1>EMPLOYEMENT</h1>
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-3">
+                  <b>PANARA MEDIA</b><BR>
+                  ART DIRECTOR
+                  <H6 class="yr">2013-2014</H6><BR>
+                    <P>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                    </P>
+                </div>
+                <div class="col-3">
+                    <b>VASSAR LABS</b><BR>
+                    SDE
+                    <H6 class="yr">2014-2015</H6><BR>
+                      <P>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                      </P>
+                  </div>
+                  <div class="col-3">
+                    <b>WEB TRACK</b><BR>
+                    DEVOLEPER
+                    <H6 class="yr">2015-2016</H6><BR>
+                      <P>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                      </P>
+                  </div>
+                  <div class="col-3">
+                    <b>INFOSYS</b><BR>
+                    TEAM LEADER
+                    <H6 class="yr">2016-2020</H6><BR>
+                      <P>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                      </P>
+                  </div>
+
+      
+            </div>
+        </div>
+      </div>
+<div class="jumbotron bg-secondary" id="mydt">
+    <div class="container">
+    <div class="row">
+        <div class="col-7">
+            <img src="images/cofounder.jpg" style="width: 400px"></div>
+
+           
+        <div class="col-5" style="margin-top:50px ;">
+           <b> AWARDS CAN GIVE YOU A TREMENDOUS AMOUNT OF ENCOURAGEMENT TO KEEP GETTING BETTER, NO MATTER HOW YOUNG OR OLD YOU ARE.<BR>
+           </b>  <HR>
+                    <div class="container">
+                        <div class="row">
+        
+                        
+        <div class="col-6">
+        <h6 style="text-align: center"><b>01. INTERNATIONAL DESIGN AWARDS</b></h6><BR>
+       
+        </div>
+        <div class="col-6">
+        <h6 style="text-align: center"><b>02. EUROPEAN DESIGN AWARDS</b></h6><BR>
+     
+            
+        </div>
+        </div>
+                </div>
+                    
+        </div>
+        
+    </div>
+</div>
+</div>
+<div class="jumbotron bg-light" id="mydt"> <h1>RECENT BLOG</h1>
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-4" style="background-color:yellow;">
+                <P>
+                    <span>  <H1>"Be Happy</H1>  ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                     <H1>"</H1></span> </P>
+            </div>
+            <div class="col-4" style="background-color: cornsilk">
+                <P>
+                    <span>  <H1>"Be Kind</H1>  ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                     <H1>"</H1></span> </P>
+              </div>
+              <div class="col-4" style="background-color: cornsilk">
+                <P>
+                    <span>  <H1>"Be Patient</H1>  ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                     <H1>"</H1></span> </P>
+              </div>
+            </div>
+           
+           
+            <div class="row">
+              <div class="col-4" style="background-color: cornsilk">
+              <P>
+                <span>  <H1>"Be Honest</H1>  ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                 <H1>"</H1></span> </P>
+              </div>
+              <div class="col-4" style="background-color:rgb(235, 88, 198);">
+                <P>
+                  <span>  <H1>"Be Peace</H1>  ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                   <H1>"</H1></span> </P>
+                </div>
+                <div class="col-4" style="background-color: cornsilk">
+                    <P>
+                      <span>  <H1>"Be True</H1>  ipsum dolor sit amet consectetur adipisicing elit. Iste architecto sed sint, accusantium voluptatem dolore nobis quis error quibusdam laboriosam?
+                       <H1>"</H1></span> </P>
+                    </div>
+  
+        
+            </div>
+    
+    
+    
+    </div>
+  </div>
+
+<div class="jumbotron" id="mydt"><h1>CONTACT</h1>
+    <div class="container">
+
+    <div class="row">
+        <div class="col-6">
+<div class="form-group">
+    <input class="form-control" type="text" placeholder="YOUR NAME"><br>
+    <input  class="form-control" type="text" placeholder="YOUR EMAIL"><BR>
+        <input class="form-control" type="text" placeholder="WHAT ARE YOU INTRESTED IN"><BR>
+            <input class="form-control" type="text" placeholder="YOUR MESSAGE"><BR>
+        <input class="form-control" type="submit" value="SUBMIT" style="background-color: black;color: cornsilk;margin-left: 150px;width: 100PX;border-radius: initial;">
+
+</div>
+    </div>
+        <div class="col-6">
+            <img src="images/cofounder.jpg" width="500px" height="500px" alt="">
+        </div>
+    </div>
+</div>    </div>
+
+    <div class="jumbotron bg-light" id="mydt">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <ul type="none"><li>
+                        &nbsp; <span> <a id="compn">  <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;
+
+                        </a>
+                        <a id="compn">   <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;
+
+                        </a>
+                            <a id="compn">    <i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;&nbsp;
+                                   </a>
+                  
+                                <a id="compn">     <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                   </a>
+                                   <a id="compn" style="padding-left:40px"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                   </a>
+                    </span></li></ul>
+                </div>
+                <div class="col-4">
+                    <strong  style="font-size: 40px;float: right">BRANDO</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="mydt">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="padding-left: 270px;"><small>&copy;2020 BRANDO IS PROUDLY POWERED BY THEMEZAA
+                </small>     </div></div>
+            </div>
+        </div>
+        <span>
+    
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
